@@ -12,11 +12,15 @@
 <body>
 
 @yield("navegacion-plantilla")
-<nav class="navbar fixed-top navbar-expand-xl navbar-dark bg-dark lista">
+    <div style="height: 50px; background: linear-gradient(to right, #27ae60, #1dd1a1);" >
+
+    </div>
+    <nav class="navbar navbar-expand-xl navbar-light bg-light lista">
+
       <div class="container">
 
         <a class="navbar-brand mt-2" href="{{url('/home')}}"> 
-          <img src="img/icono_mapa.png" loading=lazy alt="" class="navbar-brand__img"> Transporte y Servicio Doña Mercedes
+          <img src="img/Logo.png" loading=lazy alt="" class="navbar-brand__img"> Transporte y Servicio Doña Mercedes
         </a>
         
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false">
@@ -29,13 +33,13 @@
 
 
             <li class="nav-item" >
-              <a href="{{url('/acercade')}}" class="nav-link" >
+              <a href="{{url('/acercade')}}" class="nav-link text-success" >
                 Acerca de
               </a>
             </li>
 
             <li class="nav-item" >
-              <a href="{{url('/contacto')}}" class="nav-link" >
+              <a href="{{url('/contacto')}}" class="nav-link text-success" >
                 Contacto
               </a>
             </li>
@@ -45,13 +49,14 @@
 
     </div>
 </nav>    
+
 <div style="margin: 80px 60px;">
     @yield("body")
 </div>
     
 
 
-        <footer class=" bg-primary text-white text-center text-lg-start ">
+        <footer class=" bg-success text-white text-center text-lg-start ">
           <!-- Grid container -->
           <div class="container p-4">
             <!--Grid row-->

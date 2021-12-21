@@ -13,7 +13,7 @@
 
                 <!-- Informacion -->
                 <div class="col-12 col-lg-5 py-5">
-                    <div class="single-head border rounded " style="border-radius:1.25rem !important; padding: 50px; height: 100%; background: #3763eb;">
+                    <div class="single-head border rounded " style="border-radius:1.25rem !important; padding: 50px; height: 100%; background: #27ae60;">
                         <div class="contant-inner-title">
                             <h4 >Informacion de contacto</h4>
                             <p>Deja tu consulta o sugerencia, nosotros estaremos respondiendo a la brevedad.</p>
@@ -24,10 +24,10 @@
                             <li>+54 0343 470-8569</li>
                             </ul>
                         </div>
-                        <div class="single-info">
+                        <div class="single-info ">
                             <i class="bi bi-envelope"></i>
                             <ul>
-                            <li><a href="mailto:info@yourwebsite.com">ubicaellocal@gmail.com</a></li>
+                            <li>info@transporteyserviciodm.com.ar</li>
                             </ul>
                         </div>
                         <div class="single-info">

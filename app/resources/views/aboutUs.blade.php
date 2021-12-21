@@ -1,7 +1,7 @@
 @extends("layaouts.plantilla")
 
 
-@section('title', 'Home')
+@section('title', 'Acerca de')
 
 
 @section("body")
