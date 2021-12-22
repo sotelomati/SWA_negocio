@@ -12,15 +12,15 @@
 <body>
 
 @yield("navegacion-plantilla")
-    <div style="height: 50px; background: linear-gradient(to right, #27ae60, #1dd1a1);" >
+    <div style="height: 75px; background: linear-gradient(to right, #27ae60, #1dd1a1);" >
 
     </div>
     <nav class="navbar navbar-expand-xl navbar-light bg-light lista">
 
       <div class="container">
 
-        <a class="navbar-brand mt-2" href="{{url('/home')}}"> 
-          <img src="img/Logo.png" loading=lazy alt="" class="navbar-brand__img"> Transporte y Servicio Doña Mercedes
+        <a class="navbar-brand my-1" href="{{url('/home')}}"> 
+          <img src="img/Logo.png" loading=lazy alt="" class="navbar-brand__img">
         </a>
         
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false">
@@ -29,16 +29,22 @@
 
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
 
-          <ul class="navbar-nav ms-auto me-5">
+          <ul class="navbar-nav ms-auto h2">
 
 
-            <li class="nav-item" >
+            <li class="nav-item border-end border-succes px-3" >
               <a href="{{url('/acercade')}}" class="nav-link text-success" >
                 Acerca de
               </a>
             </li>
 
-            <li class="nav-item" >
+            <li class="nav-item  border-end border-succes px-3" >
+              <a href="{{url('/contacto')}}" class="nav-link text-success" >
+                Preguntas 
+              </a>
+            </li>
+
+            <li class="nav-item  border-end border-succes px-3" >
               <a href="{{url('/contacto')}}" class="nav-link text-success" >
                 Contacto
               </a>
@@ -50,9 +56,7 @@
     </div>
 </nav>    
 
-<div style="margin: 80px 60px;">
     @yield("body")
-</div>
     
 
 

@@ -6,25 +6,19 @@
 
 @section("body")
 
-    <div class="container mt-3 mb-3">
-    
-        <div class="row justify-content-center">
-        
-        </div>
-    </div>
 
-    <div class="container ">
+    <div class="container-fluid p-0 pb-3">
 
         <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="https://i.ytimg.com/vi/I_EB6rSG7iQ/maxresdefault.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                <img src="https://pbs.twimg.com/media/EDBOx6NWsAAMDf9.jpg" class="d-block w-100" alt="...">
+                <img src="https://www.lord.com/latam/sites/brazil/files/freight-truck_Banner.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item ">
-                <img src="https://i.ytimg.com/vi/Cx9zYKkECwg/hqdefault.jpg" class="d-block w-100" alt="...">
+                <img src="https://www.rdvdiesel.com/wp-content/uploads/2018/08/banner-camion-e1535730010267.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item ">
+                <img src="https://www.autoescuelajuanchu.com/wp-content/uploads/2017/08/banner-permiso-camion.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
